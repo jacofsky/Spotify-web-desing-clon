@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    color: black;
+}
+
+.background-image {
+    background-image: url(https://support.scdn.co/web/_next/static/assets/fefc0f9/search-desktop.webp);
+
+}
+
+.logo {
+    width: 20%;
+}
+
+.color-footer {
+    color: white !important;
+    
+}
+
+.color-footer:hover {
+    color: #1ed760 !important;
+    text-decoration: none;
+}
+
+.images-footer {
+    width: 40%;
+}
+
+
+.images-footer-diplay {
+    display: flex;
+}
+
+.input-ayuda {
+    margin-top: 2%;
+    border-radius: 10vh;
+    border-color: black;
+    border: transparent;
+    width: 30%;
+    height: 4vh;
+}
+
+.ul-contacto {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.h4-ayuda {
+    justify-content: space-evenly;
+
+}
+
+.li-ayuda {
+    margin-top: 5%;
+    color: #117a37;
+}
+
+.li-ayuda a {
+    color: #117a37;
+}
+
+.margin-li-footer {
+    margin-bottom: 10%;
+}
+
+.h5-footer {
+    color: gray;
+    margin-bottom: 10%;
+}
+
+.button-ayuda {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 40px;
+    width: 210px;
+    height: 50px;
+    margin-bottom: 5%;
+    border: transparent;
+    background-color: #1ed760;
+    text-align: center;
+}
+
+.button-ayuda:hover {
+    width: 220px;
+
+}
+
+.Logo2 {
+    width: 200px;
+}
+
+.button-inicio-sesion {
+    margin-top: 1.5%;
+    width: 300px;
+    padding: 1%;
+    border-radius: 200px;
+    border: transparent;
+}
+
+.contraseña-iniciar-sesion:hover {
+    color: #117a37;
+}
+
+.button-iniciar-sesion {
+    text-align: center;
+    color: white;
+    background-color: #189946;
+}
+
+.button-iniciar-sesion:hover {
+    transition: 1s;
+    background-color: #1ed760;
+}
+
+.alineacion-h4-ayuda {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.button-facebook {
+    color: white;
+    background-color: #3b5999;
+}
+
+.button-apple {
+    color: white;
+    background-color: black;
+}
+
+.logos-button {
+    width: 7%;
+    margin-right: 2%;
+
+}
+
+.section2-ayuda {
+    background-color: #eeeeee;
+}
+
+
+.color-section {
+    color: white;
+}
+
+.colores-body-inicio {
+    background-color: rgb(41, 65, 171);
+    background-image: url(https://www-growth.scdn.co/static/home/bursts-mobile.svg);
+    background-position: center top 30%;
+    background-repeat: no-repeat;
+    background-size: 195%;
+}
+
+.color-h1-inicio {
+    color: #1ed760;
+    font-weight: bolder;
+    margin-top: 200px;
+}
+
+.font-size-h1-inicio {
+    font-size: 300%;
+}
+
+
+.button-inicio-spotify {
+    margin-top: 1.5%;
+    width: 300px;
+    padding: 1%;
+    border-radius: 200px;
+    border: transparent;
+    background-color: #1ed760;
+    color: rgb(41, 65, 171);
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.p-inicio-color {
+    color: #1ed760;
+}
+
+.list-ayuda {
+    list-style: none;
+    text-align: center;
+}
+
+.li-contacto {
+    margin-right: 5%;
+}
+
+.h1-ayuda {
+    margin-top: 5%;
+}
+
+.text-ayuda {
+    width: 90%;
+    margin: auto;
+}
+
+.button-registrate-en-spotify {
+    background-color: transparent;
+    border: solid;
+    color: grey;
+}
+
+.button-registrate-en-spotify:hover {
+    background-color: grey;
+    color: white;
+}
+
+.contenido-ayuda {
+    margin-bottom: 5%;
+}
+
+.meses-gratis{
+    background-color: rgb(46, 119, 208);
+    color: #eeeeee;
+    display: inline-block;
+    border-radius: .3vh;
+    font-size: 1.5vh;
+}
+
+.opcion-prepago{
+    border: rgb(46, 119, 208) .15vh solid;
+    color: rgb(46, 119, 208);
+    display: inline-block;
+    border-radius: .3vh;
+    font-size: 1.5vh;
+}
+
+.color-premium{
+    background-color: rgb(29, 117, 222);
+}
+
+.comenzar-premium{
+    border-radius: 3vh;
+    font-size: 2.5vh;
+}
+
+.ver-planes-premium{
+    border-radius: 3vh;
+    font-size: 2.5vh;
+    background-color: transparent;
+    transition: background-color .2s;
+}
+
+.ver-planes-premium:hover{
+
+    background-color: rgba(0, 0, 0, 0.052);
+}
+
+.size-p-premium{
+    font-size: 2.8vh;
+}
+
+.button-color-black{
+    background-color: black;
+}
+
+.navbar-spotify-logo{
+    width: 15vh;
+    height: 4.5vh;
+}
+
+
+.color-verde-descargar{
+    background-color: #2ECC71;
+}
+
+.button-descargar{
+    background-color: white;
+    font-size: 2vh;
+    border-radius: 10vh;
+    width: 18vh;
+    height: 8vh;
+}
+
+.button-descargar:hover{
+    width: 20vh;
+}
+
+.lista-reproductores li{
+    display: inline;
+}
+
+.lista-reproductores li img{
+    width: 1%;
+}
+
+.color-dispositivos{
+    background-color: #222326;
+    color: white;
+}
+
+.img-registrarse{
+    width: 20vh;
+}
+
+.radio-registrarse div p,input{
+    display: inline;
+}
+
+.radio-registrarse div{
+    display: inline;
+}
+
